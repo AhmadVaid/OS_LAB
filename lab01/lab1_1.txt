@@ -1,0 +1,20 @@
+Command 1:
+$ pwd
+/home/ahmad_230953532/Lab01
+
+command 2:
+$ date
+Sat May 22 10:25:14 IST 2026
+
+Command 3:
+$ ls
+Lab1_1.txt
+
+Command 4:
+$ cd ..
+$ pwd
+/home/ahmad_230953532
+
+Command 5:
+$ echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
