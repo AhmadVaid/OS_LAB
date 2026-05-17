@@ -1,0 +1,59 @@
+$ cat > file1.txt
+OS Lab
+Unix Commands
+Ctrl + D
+
+$ cat >> file1.txt
+Shell Programming
+Ctrl + D
+
+$ head -n 1 file1.txt
+OS Lab
+
+$ head -c 5 file1.txt
+OS La
+
+$ tail -n 1 file1.txt
+Shell Programming
+
+$ tail -c 11 file1.txt
+Programming
+
+$ cp -n file1.txt copy.txt
+cp: warning: behavior of -n is non-portable and may change in future; use --update=none instead
+
+$ cp -i file1.txt copy.txt
+cp: overwrite 'copy.txt'? y
+
+$ cp -f file1.txt copy.txt
+
+$ mv -f copy.txt new.txt
+
+$ mv -i new.txt copy.txt
+mv: overwrite 'copy.txt'? y
+
+$ mkdir dir1 dir2
+$ mv dir1 dir2
+
+$ touch a.txt b.txt c.txt
+$ mkdir files
+$ mv a.txt b.txt c.txt files
+
+$ rm -r files
+
+$ rm -i copy.txt
+rm: remove regular file 'copy.txt'? y
+
+$ rm -f file1.txt
+
+$ mkdir temp
+$ rmdir temp
+
+$ find . -name "*.txt"
+./a.txt
+./b.txt
+
+$ find . -type d
+.
+./Lab1
+./Lab2
