@@ -1,0 +1,10 @@
+1234:Rahul:ICT:Information Technology:A:80:60:70
+1235:Aman:CSE:CS:B:75:82:90
+1236:Riya:ICT:CCE:A:88:76:91
+1237:Karan:ECE:EC:C:67:72:80
+1238:Neha:ICT:Information Technology:B:90:85:88
+1239:Arjun:ME:MECH:A:70:65:60
+1240:Priya:ICT:CCE:C:92:81:79
+1241:Vikram:CSE:CS:B:84:73:69
+1242:Sneha:ICT:Information Technology:A:77:89:90
+1243:Ajay:ECE:EC:B:68:74:71
