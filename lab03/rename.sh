@@ -1,2 +1,5 @@
 #!/bin/bash
-
+find . -name "*.txt" | while read file
+do
+mv "$file" "${file%.txt}.text"
+done
